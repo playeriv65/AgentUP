@@ -1,0 +1,9 @@
+[project]
+name = "agentup"
+version = "0.1.0"
+description = "Chinese narrated video creation and multi-platform publishing workflow"
+requires-python = ">=3.12,<3.13"
+dependencies = ["edge-tts>=7.2,<8"]
+
+[tool.uv]
+package = false
